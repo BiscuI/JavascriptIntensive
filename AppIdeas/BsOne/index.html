@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binário</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Conversor Binário</h1></header>
+
+    <section>
+        <div><label for="num">
+        <p>Insira o valor binário: </p>
+        <input type="text" id="num" placeholder="Binário de 8 digitos" pattern="[0,1]" title="Insira apenas dígitos binários(0 e 1)">
+        </label></div>
+
+        <div><input type="button" value="CONVERTER" onclick="converter()"></div>
+        <div id="res">SAÍDA:</div>
+    </section>
+
+    <footer>&copy; LePablords</footer>
+    <script src="script.js"></script>
+</body>
+</html>

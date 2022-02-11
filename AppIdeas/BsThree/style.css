@@ -1,0 +1,70 @@
+*{
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #100a1c;
+    background-image:
+    radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+     background-attachment: fixed;
+    color: #6cacc5;
+}
+
+header{
+    text-align: center;
+    font: 25pt bold;
+    color: white;
+}
+
+section{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+section div#display{
+    text-align: center;
+    background-color: black;
+    color: green;
+    margin: auto;
+    padding: 20px;
+    width: 102px;
+    font: 20pt bold;
+}
+
+section div#calc{
+    border: 1px solid black;
+    width: 140px;
+    margin: auto;
+}
+
+section div.buttonGroupOne{
+    text-align: center;
+    margin-top: 20px;
+}
+
+section div.buttonGroupOne input{
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+section div.buttonGroup{
+    text-align: center;
+}
+
+section div.buttonGroup input{
+    width: 30px;
+    margin-bottom: 5px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-style: italic;
+}

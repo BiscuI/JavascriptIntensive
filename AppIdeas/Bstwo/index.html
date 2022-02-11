@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o border-radius</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Observer a border-radius em ação</h1></header>
+
+    <section id="radius"></section>
+
+    <section id="conteudo">
+        <div>
+            <label for="valorPixels">
+                <p>Insira um valor para todas as bordas:</p>
+                <input type="number" name="valorPixels" id="valorPixels" placeholder="Valor em pixels">
+            </label>
+
+            <label for="butaoUm">
+                <input type="button" value="Aplicar" onclick="converterPx()">
+            </label>
+        </div>
+
+
+        <div>
+            <label for="valorPorcentagem">
+                <p>Insira uma porcentagem para todas as bordas:</p>
+                <input type="number" name="valorPorcentagem" id="valorPorcentagem" placeholder="Valor em porcentagem">
+            </label>
+
+            <label for="butaoDois">
+                <input type="button" value="Aplicar" onclick="converterPercent()">
+            </label>
+        </div>
+
+        <div>
+            <label for="valoresCompletos">
+                <p>Insira um valor para cada borda:</p>
+                <input type="number" name="topLeft" id="topLeft" placeholder="Top-left">
+                <input type="number" name="topRight" id="topRight" placeholder="Top-right">
+                <input type="number" name="bottomRight" id="bottomRight" placeholder="Bottom-right">
+                <input type="number" name="bottomLeft" id="bottomLeft" placeholder="Bottom-left">
+                <input type="button" value="Aplicar" onclick="converterBordas()">
+            </label>
+        </div>
+    </section>
+
+    <footer>&copy; LepabloRds</footer>
+    <script src="script.js"></script>
+</body>
+</html>
